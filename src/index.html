@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>jquery-divable</title>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-1.11.2.min.js"></script>
+</head>
+<body>
+<table id="table1">
+    <thead>
+        <tr>
+            <th class="first_name">First Name</th>
+            <th class="last_name">Last Name</th>
+            <th class="email">E-mail</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <th>John</th>
+            <th>Doe</th>
+            <th>
+                <a href="#">email@example.com</a>
+            </th>
+        </tr>
+    </tbody>
+</table>
+<hr />
+<table id="table2">
+    <thead>
+        <tr>
+            <th class="first_name">First Name</th>
+            <th class="last_name">Last Name</th>
+            <th class="email">E-mail</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <th>John</th>
+            <th>Doe</th>
+            <th>
+                <a href="#">email@example.com</a>
+            </th>
+        </tr>
+    </tbody>
+</table>
+<script type="text/javascript" src="js/jquery-divable.min.js"></script>
+<script type="text/javascript">
+    // Make it happen
+    $('#table1').divable();
+    $('#table2').divable({ replaceWith: 'span'});
+</script>
+</body>
+</html>
