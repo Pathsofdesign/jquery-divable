@@ -1,0 +1,23 @@
+{
+  "name": "jquery-divable",
+  "version": "0.0.1",
+  "homepage": "https://github.com/Pathsofdesign/jquery-divable",
+  "authors": [
+    "Andrew Del Prete <pathsofdesign@gmail.com>"
+  ],
+  "description": "Replace Table tags with Divs",
+  "keywords": [
+    "jquery",
+    "replace",
+    "tables",
+    "responsive"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
